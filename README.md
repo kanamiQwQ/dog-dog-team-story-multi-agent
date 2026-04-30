@@ -16,8 +16,8 @@
 - 默认启动运行在7707端口。如需修改可在SI.py中底部对"port=7707"进行修改。
 - 对于模型选择以及端口和token的配置，在DEC.py中class Config中进行配置。
 # 使用方法
-- 当前目录下运行 ‘python SI.py’ 即可启动该multi-agent。
-- 对于前端调用，设置接口地址为http://localhost:7707/，默认token为openai，如需修改可在DEC.py中class Config中进行配置。
+- 当前目录下运行 '''python SI.py''' 即可启动该multi-agent。
+- 对于前端调用，设置接口地址为'''http://localhost:7707/'''，默认token为openai，如需修改可在DEC.py中class Config中进行配置。
 # 项目对比
 - 对比单agent项目，本项目在完整逻辑闭环上以及功能上都有较大幅提升。且额外增加熔断机制防止token爆炸。
 - 对于token消耗比单agent项目仅增加5000token左右。触发3次review的情况下，额外消耗的token为10000token左右。
