@@ -383,7 +383,7 @@ def run_pipeline(request: ChatRequest) -> str:
                     original_request=user_input
                 )
 
-    return "暂时无法分析你的意图，请换个说法试试喵~"
+    return "暂时无法听懂你说话喵，换个说法试试喵~"
 
 
 def _build_completion_response(content: str, model_name: str) -> Dict[str, Any]:
