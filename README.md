@@ -19,7 +19,7 @@
 - 当前目录下运行以下命令启动：
   ```bash
   python Sl.py
-- 对于前端调用，设置接口地址为http://localhost:7707/，默认token为openai，如需修改可在DEC.py中class Config中进行配置。
+- 对于前端调用，设置接口地址为http://localhost:7707/ ，默认token为openai，如需修改可在DEC.py中class Config中进行配置。
 # 项目对比
 - 对比单agent项目，本项目在完整逻辑闭环上以及功能上都有较大幅提升。且额外增加熔断机制防止token爆炸。
 - 对于token消耗比单agent项目仅增加5000token左右。触发3次review的情况下，额外消耗的token为10000token左右。
